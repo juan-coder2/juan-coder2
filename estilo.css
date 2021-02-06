@@ -1,0 +1,160 @@
+html {
+	margin: 0;
+	padding: 0;
+
+}
+body {
+	font-family: Gagalin;
+	font-size: 13pt;
+	background-color: #efefef;
+	padding: 10px;
+	margin: 0;
+}
+h1 {
+	font-size: 15pt;
+	color: #20bcd5;
+	text-align: center;
+	padding: 10px;
+	margin: 18px 0 18px 0;
+
+}
+h1 span {
+	border: 4px dashed #20bcd5;
+	padding: 10px;
+}
+p {
+	padding: 0;
+	margin: 0;
+}
+.img-circle {
+	border: 2px solid #4b4b4b;
+	border-radius: 50%;
+}
+.section {
+	background-color: #fff;
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+#header {
+	background-image: url(puntos.jpg);
+}
+#header img {
+	display: block;
+	width: 120px;
+	height: 120px;
+	margin: auto;
+}
+#header p {
+	font-size: 25px;
+	color: #3b464c;
+	padding-top: 5px;
+	margin: 0;
+	font-weight: bold;
+	text-align: center;
+}
+table {
+	width: 100%
+}
+table, th, td {
+	border: 2px solid #cecece;
+	border-collapse: collapse;
+	text-align: center;
+	table-layout: fixed;
+	padding-top:10px;
+	padding-bottom: 10px;
+
+}
+.select {
+	background-color: #f36f48;
+	color: white;
+	font-family: "Pineapple Grass";
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+li {
+	margin-bottom: 15px;
+}
+progress {
+	width: 70%;
+	height: 20px;
+	background: #efefef;
+}
+progress::-webkit-progress-bar /*Indica la parte que no haz completado del progreso*/{
+    background: #efefef;
+}
+progress::-webkit-progress-value /*Indica la parte que haz completado del progreso*/{
+    background: #3fb6b2;
+} 
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+iframe {
+	display: inline-block;
+	margin: auto;
+	border: 3px solid  #3fb6b2;
+}
+
+
+#align {
+	text-align: center;
+}
+form {
+	text-align: center;
+	margin-top: 0px;
+}
+.submit {
+	background-color: #3fb6b2;
+	padding: 12px 45px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #ffffff;
+	border:none;
+	outline: none;
+	margin: 0px;
+	font-weight: bold;
+}
+.submit:hover {
+	background-color: #ffa420;
+}
+textarea {
+	height: 100px;
+}
+input, textarea {
+	margin-bottom: 10px;
+	font-size: 11pt;
+	padding: 15px 10px 10px;
+	border: 1px solid #cecece;
+	background-color: #efefef;
+	color:#787575;
+	border-radius: 5px;
+	width: 70%;
+	outline: none;
+}
+#contact img {
+	display: block;
+	margin: auto;
+	height: 200px;
+}
+#contacts img {
+	height: 120px;
+	width: 120px;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+	text-align: center;
+}
+.copyright {
+	font-size: 8pt;
+	text-align: right;
+	padding-bottom: 10px;
+	color: grey;
+}
+#paragraph {
+	font-family: "Bahnschrift"
+}
